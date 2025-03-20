@@ -77,7 +77,7 @@ describe(' log in and sing in', () => {
   });
 
 
-  it.only('successful sign up', () => {
+  it('successful sign up', () => {
     cy.get('.sign-up-btn').click();
 
     cy.fixture('users').then((users) => {
