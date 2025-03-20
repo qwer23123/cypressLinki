@@ -6,7 +6,7 @@ describe(' log in and sing in', () => {
     cy.wait(500);
   });
 
-  it('Send empty22 form log in', () => {
+  it('Send empty2299 form log in', () => {
     cy.get('.sign-up-btn').click();
     cy.origin('https://linki-group.eu.auth0.com', () => {
       cy.contains('button', 'Продолжить').click();
